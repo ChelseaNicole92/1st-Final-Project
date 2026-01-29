@@ -25,6 +25,8 @@ body {
 
 .container {
     padding: 96px 0;
+    width: 100%;
+    max-width: 1280px;
 }
 
 .purple {
@@ -223,10 +225,12 @@ HEADER / ABOUT US ↓
 */
 
 .header__row {
-    flex-direction: column;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 40%;
+    width: 100%;
+    margin: 48px auto;
+    max-width: 1280px;
 }
 
 .header__description {
@@ -245,8 +249,16 @@ HEADER / ABOUT US ↓
     width: 60%;
     max-width: 512px;
     margin: 0 auto;
-    display: column;
+    padding: 96px 0;
     justify-content: flex-end;
+}
+
+.header__img{
+    max-width: 512px;
+}
+
+.header__cust{
+    opacity: 50%;
 }
 
 .header__desc--para{
