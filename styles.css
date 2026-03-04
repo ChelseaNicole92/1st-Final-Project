@@ -251,6 +251,7 @@ HEADER / ABOUT US ↓
     margin: 0 auto;
     padding: 96px 0;
     justify-content: flex-end;
+    position: relative;
 }
 
 .header__img{
@@ -334,6 +335,40 @@ FEATURES ↓
     align-items: center;
 }
 
+.features__container{
+    background-color: white;
+    width: 280px;
+    margin: 0 auto;
+    padding: 0 25px 0 25px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.features__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 25px 0 25px;
+}
+
+.feature__img--wrapper{
+    width: 100%;
+    display: flex;
+    margin: 24px 0;
+}
+
+.features__title{
+    font-size: 48px;
+    align-items: center;;
+}
+
+.feature__img--wrapper{
+    width: 100%;
+    display: flex;
+    margin: 24px 0;
+}
 
 /* 
 
